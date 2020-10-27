@@ -1,0 +1,20 @@
+{
+  "left_strings": [
+    "testl_1",
+    "testl_2",
+    "testl_3",
+    "testl_4",
+    "testl_5",
+    "testl_6",
+    "testl_7",
+    "testl_8",
+    "testl_9"
+  ],
+  "right_strings": [
+    "testr_1",
+    "testr_2",
+    "testr_3",
+    "testr_4",
+    "testr_5"
+  ]
+}

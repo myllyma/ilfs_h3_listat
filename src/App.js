@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import axios from 'axios';
+import React, {useState, useEffect} from 'react';
 
 function App() {
+  const [leftList, setLeftList] = useState([]);
+  const [rightList, setRightList] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get('http://localhost:3001/left_strings')
+      .then((response) => {
+        setLeftList(response.data);
+      });
+
+    axios
+      .get('http://localhost:3001/right_strings')
+      .then((response) => {
+        setRightList(response.data);
+      });
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
     </div>
   );
 }

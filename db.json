@@ -1,20 +1,20 @@
 {
   "left_strings": [
-    "testl_1",
-    "testl_2",
-    "testl_3",
-    "testl_4",
-    "testl_5",
-    "testl_6",
-    "testl_7",
-    "testl_8",
-    "testl_9"
+    "test l_1",
+    "test l_2",
+    "test l_3",
+    "test l_4",
+    "test l_5",
+    "test l_6",
+    "test l_7",
+    "test l_8",
+    "test l_9"
   ],
   "right_strings": [
-    "testr_1",
-    "testr_2",
-    "testr_3",
-    "testr_4",
-    "testr_5"
+    "test r_1",
+    "test r_2",
+    "test r_3",
+    "test r_4",
+    "test r_5"
   ]
 }
